@@ -10,7 +10,7 @@ Download and copy the script to a location in your PATH and make it executable.
 To do so open a terminal an type the following commands:
 ```
 $ wget https://raw.githubusercontent.com/owahlen/macspoof/master/macspoof
-$ chmod +x /usr/local/bin/macspoof
+$ chmod +x macspoof
 $ sudo cp macspoof /usr/local/bin
 ```
 
