@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# find the WiFi device
+DEVICE=$(networksetup -listallhardwareports | awk '$3=="Wi-Fi" {getline; print $2}')
+
+# generate a random mac address
+RANDOM_MAC=$(openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//')
+
+# disconnect any current wifi connection
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -z
+
+# change the mac address to the random mac
+ifconfig "$DEVICE" ether "$RANDOM_MAC"
