@@ -3,7 +3,7 @@
 Change the [MAC address](https://de.wikipedia.org/wiki/MAC-Adresse) of your Apple MacBook to a random number.
 
 ## Purpose
-This small script allow to give your WiFi network device another Media-Access-Control-Address.
+This small script allows to give your WiFi network device another Media-Access-Control-Address.
 
 ## Installation
 Download and copy the script to a location in your PATH and make it executable.
