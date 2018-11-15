@@ -1,6 +1,6 @@
 # macspoof
 
-Change the [MAC address](https://de.wikipedia.org/wiki/MAC-Adresse) of your Apple MacBook to a random number.
+Change the [MAC address](https://en.wikipedia.org/wiki/MAC_address) of your Apple MacBook to a random number.
 
 ## Purpose
 This small script allows to give your WiFi network device another Media-Access-Control-Address.
